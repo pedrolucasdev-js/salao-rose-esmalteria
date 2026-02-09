@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import NailsHero from '../assets/images/nailshero.png';
 import '../css/hero/hero.css';
 
 export default function Hero() {
@@ -94,8 +95,8 @@ export default function Hero() {
 
                         <motion.img
                             whileHover={{ scale: 1.03 }}
-                            className="relative w-full rounded-[40px] shadow-2xl object-cover"
-                            src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png"
+                            className="relative  rounded-[40px] shadow-2xl object-cover w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[500px] lg:h-[500px]"
+                            src={NailsHero}
                             alt="Espaço feminino de esmalteria"
                         />
                     </motion.div>
