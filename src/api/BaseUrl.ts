@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const url = "https://estudos-ruby-1.onrender.com/api";
+// URL LOCAL
+// const url = "http://localhost:3000/api";
+const url = "http://localhost:3000/api";
 
 const api = axios.create({
   baseURL: url,

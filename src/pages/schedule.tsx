@@ -16,6 +16,7 @@ export default function SchedulePage() {
     const [service, setService] = useState<any>(null)
     const [date, setDate] = useState("")
     const [time, setTime] = useState("")
+    const [phone, setPhone] = useState("")
 
     const fade = {
         hidden: { opacity: 0, y: 40 },
@@ -32,7 +33,9 @@ export default function SchedulePage() {
             date,
             setDate,
             time,
-            setTime
+            setTime,
+            phone,
+            setPhone
         }}>
 
             <section className="min-h-screen bg-[#0F2A23] text-[#F5EFE6] py-12 px-4">
