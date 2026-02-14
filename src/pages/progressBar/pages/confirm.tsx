@@ -26,7 +26,7 @@ export default function Confirm() {
     try {
       setLoading(true)
 
-      const response = await api.post("/appointments", {
+      await api.post("/appointments", {
         appointment: {
           salon_id: salonId,
           service_id: service.id,
